@@ -26,8 +26,11 @@
         animation: anime 20s infinite; 
     
     }
+    .centering {
+        text-align: center;
+    }
      
-     @keyframes move {
+     @keyframes anime  {
        0% { transition: ease-in; transform: translateX(-100%); }
        10% { transition: ease-in; transform: translateX(-200%); }
        20% { transition: ease-in; transform: translateX(-300%); }
